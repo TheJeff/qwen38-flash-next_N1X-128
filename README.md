@@ -29,6 +29,16 @@ Two models are set up and benchmarked:
 (16 GB + 96 GiB), the Zig toolchain tarball, `cuda-keyring.deb`. The runbook has the
 exact download URLs and hashes for all of them.
 
+**To publish:**
+
+```
+cd git-portfolio
+git remote add origin <your-repo-url>
+git push -u origin main
+```
+
+Current HEAD: `e46b777` (9 files committed + 15 patches, ~8.6 MB).
+
 ## Results snapshot
 
 Same fixture prompts, 256-token outputs, 5 reps per cell (medians):
