@@ -1,0 +1,22 @@
+# Extracted engine trees (re-buildable, huge)
+/tensorfold-1.1.0-linux-aarch64/
+/tensorfold-1.1.1-linux-aarch64/
+
+# Release archives — pull from GitHub releases (URLs in RUNBOOK)
+tensorfold-1.1.0-linux-aarch64.tar.gz
+tensorfold-1.1.0-linux-aarch64.tar.gz.sha256
+tensorfold-1.1.1-linux-aarch64.tar.gz
+tensorfold-1.1.1-linux-aarch64.tar.gz.sha256
+
+# Model weights (102 GB + 16 GB + 3.8 GB — re-downloadable, commands in RUNBOOK)
+/Qwen3.8-Flash-Next-FP4-Local/
+/Qwen3.8-27B-MLX-4bit/
+/Qwen3.8-27B-DFlash2/
+
+# Toolchain artifacts
+zig-aarch64-linux-0.17.0.tar.xz
+cuda-keyring.deb
+
+# WSL/git noise
+*.log
+__pycache__/

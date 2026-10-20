@@ -1,0 +1,21 @@
+PS C:\Users\imkoa\llama-cuda\llama> .\llama-server.exe -hf "unsloth/Qwen3.8-Flash-Next-GGUF" `
+>>   -hff "UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf" `
+>>   --mmproj-url "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/38bb39ee97821de2c9009abb7e93950eec396e66/mmproj-BF16.gguf" `
+>>   --host 127.0.0.1 `
+>>   --port 9931 `
+>>   --batch-size 2048 `
+>>   --ubatch-size 512 `
+>>   --ctx-size 262144 `
+>>   --parallel 1 `
+>>   -fa on `
+>>   -lzm on `
+>>   --temp 1.0 `
+>>   --top-p 0.95 `
+>>   --top-k 20 `
+>>   --min-p 0.0 `
+>>   --presence-penalty 0.0 `
+>>   --repeat-penalty 1.0 `
+>>   --spec-type draft-mtp `
+>>   --spec-draft-n-max 3 `
+>>   -hfrd "ggml-org/Qwen3.8-Flash-Next-GGUF" `
+>>   --spec-draft-model "mtp-Qwen3.8-Flash-Next-Q8_0.gguf"

@@ -1,0 +1,66 @@
+[
+ {
+  "label": "n1x-flashnext-fp4",
+  "prompt": "fibonacci-raw",
+  "temperature": 1.0,
+  "tokens": 256,
+  "decode_tps_median": 51.75444075447431,
+  "decode_tps_all": [
+   55.88,
+   53.6,
+   46.58,
+   51.75,
+   51.08
+  ],
+  "ttft_s_median": 0.12883987500001126,
+  "sample": "\n\n<think>\n\n</think>\n\nHere is a simple and efficient Python function to compute the Fibonacci sequence, followed by an explanation of how it works.\n\n### Python C"
+ },
+ {
+  "label": "n1x-flashnext-fp4",
+  "prompt": "gpu-chat-no-think",
+  "temperature": 1.0,
+  "tokens": 256,
+  "decode_tps_median": 41.282620171418124,
+  "decode_tps_all": [
+   38.64,
+   42.19,
+   41.28,
+   41.6,
+   40.28
+  ],
+  "ttft_s_median": 0.10323809100000858,
+  "sample": "### Part 1: The Plain English Explanation\n\nImagine you have two very large, flat sheets of paper (matrices). To multiply them, the computer has to perform a hug"
+ },
+ {
+  "label": "n1x-flashnext-fp4",
+  "prompt": "fibonacci-raw",
+  "temperature": 0.0,
+  "tokens": 256,
+  "decode_tps_median": 55.06064259769668,
+  "decode_tps_all": [
+   54.94,
+   55.21,
+   54.69,
+   55.06,
+   55.59
+  ],
+  "ttft_s_median": 0.13354357700001174,
+  "sample": "\n\n<think>\n\n</think>\n\nHere is a short, efficient Python function to compute the Fibonacci sequence, followed by an explanation.\n\n### The Code\n\n```python\ndef fibo"
+ },
+ {
+  "label": "n1x-flashnext-fp4",
+  "prompt": "gpu-chat-no-think",
+  "temperature": 0.0,
+  "tokens": 256,
+  "decode_tps_median": 43.61911907561966,
+  "decode_tps_all": [
+   44.17,
+   43.62,
+   43.57,
+   43.7,
+   43.54
+  ],
+  "ttft_s_median": 0.11722247599999491,
+  "sample": "Here is an explanation of how matrix multiplication works on a GPU, followed by a simple numerical example.\n\n### Part 1: How Matrix Multiplication Uses a GPU (P"
+ }
+]
