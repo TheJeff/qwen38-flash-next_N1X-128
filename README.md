@@ -25,19 +25,6 @@ Two models are set up and benchmarked:
 | `llama-server-windows` | The original llama.cpp recipe this port replaces |
 | `scripts/` | Reusable helpers: download, build, AOT kernels, serve, benchmark |
 
-**Not in git** (too big — see `.gitignore`): the extracted release trees, model weights
-(16 GB + 96 GiB), the Zig toolchain tarball, `cuda-keyring.deb`. The runbook has the
-exact download URLs and hashes for all of them.
-
-**To publish:**
-
-```
-cd git-portfolio
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-
-Current HEAD: `e46b777` (9 files committed + 15 patches, ~8.6 MB).
 
 ## Results snapshot
 
